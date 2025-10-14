@@ -2,13 +2,11 @@
 venv/
 __pycache__/
 
-# Archivos grandes o temporales
+# Modelos grandes
 *.h5
+*.tflite
 *.pkl
-*.zip
-*.rar
-*.db
 
-# Archivos de sistema
+# Archivos temporales o de sistema
 .DS_Store
 Thumbs.db
