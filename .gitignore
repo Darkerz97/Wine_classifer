@@ -1,0 +1,14 @@
+# Entornos virtuales
+venv/
+__pycache__/
+
+# Archivos grandes o temporales
+*.h5
+*.pkl
+*.zip
+*.rar
+*.db
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
