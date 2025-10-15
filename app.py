@@ -11,7 +11,8 @@ from tensorflow import keras
 # --- CONFIGURACIÓN GLOBAL ---
 MODEL_PATH = "cnn_wine_classifier.h5"
 IMG_SIZE = (150, 150)
-MODEL_URL = "https://drive.google.com/uc?id=1fPmDA3pNwIFTvGoXW0iqvsq9SAV_KDR6"
+MODEL_URL = "https://drive.google.com/uc?id=1WyuBovJBWX5SM8BAoIz9sNxoYaoq6B2f"
+
 
 # --- DESCARGA AUTOMÁTICA DEL MODELO ---
 if not os.path.exists(MODEL_PATH):
