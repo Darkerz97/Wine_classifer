@@ -13,7 +13,7 @@ Markdown==3.9
 MarkupSafe==3.0.3
 ml-dtypes==0.5.1
 namex==0.1.0
-numpy==1.26.4
+numpy==2.1.1
 opt-einsum==3.4.0
 optree==0.17.0
 packaging==25.0
@@ -29,4 +29,3 @@ tensorboard-data-server==0.7.2
 tensorflow==2.20.0
 keras==3.5.0
 streamlit==1.38.0
-
