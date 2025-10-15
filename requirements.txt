@@ -1,12 +1,28 @@
-# Core ML (CPU)
-tensorflow==2.17.0
-numpy==1.26.4
+# --- CORE ML (CPU) ---
+tensorflow==2.20.0
+# No fijes keras ni protobuf: los trae TF en versiones correctas
+
+# Numpy: deja que pip escoja una <3.0 compatible con TF 2.20
+numpy<3
+
 h5py
+scipy
+absl-py
+gast
+google-pasta
+grpcio
+opt-einsum
+optree
+libclang
+ml-dtypes
+namex
 
-# App
+# --- APP ---
 streamlit==1.38.0
-pillow>=10,<11
-gdown>=5.2.0
+pillow>=10,<12
+requests
+python-dateutil
+pytz
 
-# Para mostrar/leer imágenes sin X11 en la nube
-opencv-python-headless==4.10.0.84
+# En cloud sin GUI:
+opencv-python-headless
