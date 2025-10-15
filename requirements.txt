@@ -1,5 +1,6 @@
 # --- CORE ML (CPU) ---
 tensorflow==2.20.0
+gdown
 # No fijes keras ni protobuf: los trae TF en versiones correctas
 
 # Numpy: deja que pip escoja una <3.0 compatible con TF 2.20
@@ -26,3 +27,4 @@ pytz
 
 # En cloud sin GUI:
 opencv-python-headless
+
